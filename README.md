@@ -64,6 +64,9 @@ A full-stack, responsive web application that helps users manage their personal 
 The most challenging part of the project was cleanly managing the asynchronous flow between the frontend UI and the backend PostgreSQL database, especially when editing an expense. I had to ensure that the correct id was passed to the Bootstrap Modal, sent properly via a PUT request, and that the UI only updated after receiving a successful response from the database.
 I solved this by adopting a layered architecture in my app.js (separating API logic, UI rendering, and event listeners) and using modern async/await syntax with global state caching. This made the code predictable, easy to debug, and allowed for lightning-fast local filtering without overloading the backend with redundant requests.
 
+## GitHub repository URL
+https://github.com/Mamoun-developer/expense-tracker-starter.git
+
 
 
 
